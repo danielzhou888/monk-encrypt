@@ -7,6 +7,7 @@
         <artifactId>monk-parent</artifactId>
         <version>1.0.4</version>
     </parent>
+
     <groupId>com.monk.encrypt</groupId>
     <artifactId>monk-encrypt</artifactId>
     <version>1.0.0.RELEASE</version>
