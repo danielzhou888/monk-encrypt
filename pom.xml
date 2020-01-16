@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.github.danielzhou888</groupId>
         <artifactId>monk-parent</artifactId>
-        <version>v1.0.2</version>
+        <version>1.0.4</version>
     </parent>
     <groupId>com.monk.encrypt</groupId>
     <artifactId>monk-encrypt</artifactId>
