@@ -1,5 +1,7 @@
 package com.monk.encrypt.annotation;
 
+import com.monk.encrypt.advice.DecryptRequestAdvice;
+import com.monk.encrypt.advice.EncryptResponseAdvice;
 import com.monk.encrypt.config.HttpConverterConfig;
 import com.monk.encrypt.config.EncryptConfig;
 import org.springframework.context.annotation.Import;
@@ -17,6 +19,8 @@ import java.lang.annotation.*;
 @Documented
 @Inherited
 @Import({EncryptConfig.class,
-        HttpConverterConfig.class})
+        HttpConverterConfig.class,
+        EncryptResponseAdvice.class,
+        DecryptRequestAdvice.class})
 public @interface EnableEncrypt {
 }
